@@ -1,6 +1,40 @@
 @charset "UTF-8";
 
-html{
+*{
     padding: 0px;
     margin: 0px;
+}
+
+header{
+    background-color: rgba(0, 128, 0, 0.722);
+    padding: 20px;
+}
+
+header.conteiner{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+menu.menu>nav.itens{
+    display: inline-block;
+}
+
+menu>nav>a{
+    background-color:white;
+    border-radius: 1px;
+    text-decoration: none;
+}
+
+nav>a:hover{
+    color:blue;
+}
+
+div#Engenharia{
+    margin-top: 20px;
+    background-color:rgba(0, 128, 0, 0.722); ;
+    padding: 20px;
+    text-align: center;
+    width: 300px;
+    height: 200px;
+    line-height: 200px;
 }
